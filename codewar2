@@ -1,0 +1,7 @@
+function stringToArray(string){
+
+	// code code code
+let arr = string.split(" ");
+  console.log(arr);
+  return arr;
+}
