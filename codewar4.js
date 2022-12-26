@@ -12,3 +12,13 @@ function positiveSum(arr) {
 }
  const array = [1, 5 , -2, 8, 4];
  console.log(positiveSum(array));
+//**********
+// reverse array
+const reverseSeq = n => {
+  const arr=[n];
+  for(var i =n ,j =0 ; i > 0; i--){
+    arr[j] = i;
+    j++;
+  }
+  return arr;
+};
