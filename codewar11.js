@@ -8,4 +8,10 @@ let arr= [];
       arr.push(x);
   }
   return arr;
-    
+    // another simple solution is
+
+return l.filter(Number.isInteger);
+        
+  
+
+
